@@ -1,6 +1,9 @@
 {
-  "howdoesitwork": "How does it work?",
   "aoverview": "Overview",
+  "howdoesitwork": "How does it work?",
+  "advanced-topics": "Advanced Topics",
+  "see-it-in-practice": "See it in Practice",
   "toolsyouneed": "Tools of the Trade",
-  "projects": "Projects"
+  "projects": "Projects",
+  "what-missing": "What is Missing?"
 }
