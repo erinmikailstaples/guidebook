@@ -23,7 +23,7 @@ export default {
       <meta name="twitter:site:domain" content="OpenGuide" />
       <meta name="twitter:url" content="https://twitter.com/guideopen" />
       <meta name="og:title" content="OpenGuide: a collection of educational guides." />
-      <meta name="og:image" content="https://twitter.com/GuideOpen/photo" />
+      <meta name="og:image" content="https://nextra.vercel.app/og.png" />
       <meta name="apple-mobile-web-app-title" content="OpenGuide" />
       <link
         rel="apple-touch-icon"
@@ -62,6 +62,6 @@ export default {
   nextLinks: true,
   footer: true,
   footerEditLink: 'Contribute to OpenGuide',
-  footerText: <>MIT {new Date().getFullYear()} ©OpenGuide | ©Erin Mikail STaples.</>,
+  footerText: <>MIT {new Date().getFullYear()} ©OpenGuide | ©Erin Mikail Staples.</>,
   unstable_faviconGlyph: '🌐',
 }
