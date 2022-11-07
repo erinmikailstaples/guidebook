@@ -1,0 +1,38 @@
+
+# What is PostgresSQL?
+
+> [!NOTE] Articles / Resources Mentioned in this Post or came handy in my learning process 😄
+> - Learn [PostgreSQL](https://github.com/dwyl/learn-postgresql)
+> - [Postgres.app documentation](https://postgresapp.com/documentation/)
+> - [Postgres Guide](https://www.postgresguide.com)
+> - [How to install and use posgreSQL on Ubuntu 16.04 ](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-16-04)
+
+
+[Postgres is a type of language](https://github.com/dwyl/learn-postgresql) used to help people store, retrieve, and derive insights from data.  This is the essence of all software applications.
+
+[[SQL]] or [[Structured Query Language]] is the most frequent way of retrieving and working with that data.
+
+## Learn [PostgreSQL tutorial](https://github.com/dwyl/learn-postgresql)
+*notes and process from the PostgreSQL tutorial*
+
+### 1. What is PostgreSQL?
+PostgreSQL (_often shortened to simply "**Postgres**"_) is an advanced **R**elational **D**ataBase **M**anagement **S**ystem ("RDBMS"), that lets you _efficiently_ and _securely_store _any_ type of data. We will _explain_ "[[Relational Database]]" in the context of our _example_ below, so don't worry if it sounds like a buzzword soup.
+
+#### PostgreSQL v. SQL
+SQL is simply the preferred means of interacting with data while PostgresSQL is the added standards compliance and extensibility used to enhance the data.
+
+> [!QUESTION] What's the difference between PostgreSQL and other types of SQL?  (aka — mySQL?)
+>mySQL was written and developed by Wordpress, and largely adopted by many other CMS platforms. PostgreSQL is an open sourced alternative while mySQL is proprietary. [read more](https://hackr.io/blog/postgresql-vs-mysql)
+
+Before you can begin using posgreSQL — you must first install it.
+
+You can navigate to https://postgresapp.com and click `download` to do so.
+
+> [!QUESTION] [[Why do I need to download or install programming languages?]]
+> This is something I struggled with when I first started coding — I didn't understand *why* I needed to download or install items in order to code. The TL;DR — you're providing a *translator* to the computer to understand what language you're writing in.
+
+Once the app is downloaded from posgresapp.com, you'll further install it in the terminal by using the following lines within your terminal.
+
+	mkdir -p /etc/paths.d && echo /Applications/Postgres.app/Contents/Versions/latest/bin | sudo tee /etc/paths.d/postgresapp
+
+You'll know the installation worked when you can type `psql` in your terminal and receive the following response. *note — replace your username, where my username is located* 😉
