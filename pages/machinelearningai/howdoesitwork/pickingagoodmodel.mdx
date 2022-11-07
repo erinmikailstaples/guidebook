@@ -1,0 +1,19 @@
+# The Importance of Good Data (and a good data model!)
+
+ML largely relies on data sets in order to build the model. If you train a model off of bad data, or data that doesn't take into consdieration various nuances you could set yourself up for not only inaccurate results — but also problematic results through misinterpreting different segments of the world. 
+
+## How to select data for modeling
+
+Selecting data for modeling can appear overwhelming at first.  The first thing to do is to approach the situation with an understanding of *what* you are asking. 
+
+
+## Tackling your first dataset
+
+When you approach a dataset — you'll need to look at all of the different columns in the dataset. Use the **columns** property of the DataFrame in order to do so. 
+
+*input*
+```
+melbourne_file_path = '../input/melbourne-housing-snapshot/melb_data.csv'
+melbourne_data = pd.read_csv(melbourne_file_path) 
+melbourne_data.columns
+```
