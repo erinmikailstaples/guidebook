@@ -3,8 +3,10 @@
   "get-started": "Get Started",
   "machinelearning101": "AI, Machine Learning, and Data Science",
   "misinformationsolutions": "Community Solutions for Misinformation",
+  "containers":"Containers",
   "opensource": "Open Source",
   "techeducation": "Technical Education",
-  "containers":"Containers"
+  "virtualenvironment": "Virtual Environments"
+ 
 
 }
